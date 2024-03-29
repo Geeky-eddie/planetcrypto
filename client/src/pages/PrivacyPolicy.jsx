@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
       <p className="mb-4">Last updated: 24th-March-2024</p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">1. Introduction</h2>
-      <p className="mb-4">This Privacy Policy describes how Healthrepublicmedia.com.ng ("we", "us", or "our") collects, uses, and shares your personal information when you use our website (the "Service").</p>
+      <p className="mb-4">This Privacy Policy describes how Planetcrypto.com.ng ("we", "us", or "our") collects, uses, and shares your personal information when you use our website (the "Service").</p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">2. Information We Collect</h2>
       <p className="mb-4">We collect various types of information for different purposes to provide and improve our Service to you.</p>

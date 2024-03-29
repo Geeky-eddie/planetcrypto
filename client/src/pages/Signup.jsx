@@ -1,6 +1,6 @@
-import { Alert, Button, Label, Spinner, TextInput } from 'flowbite-react'
-import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Alert, Button, Label, Spinner, TextInput } from 'flowbite-react';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import OAuth from '../components/OAuth';
 import logo from "../../public/2hr.png";
 
@@ -53,7 +53,8 @@ const Signup = () => {
             {/* <span className='px-2 py-1  bg-amber-500 rounded-lg text-white'>Career</span> */}
             <img src={logo} alt="logo" height={40} width={80} />
         </Link>
-        <p class='text-sm mt-5'>Welcome to Health Republic Media! Sign up to explore a world of health and wellness insights, expert articles, community discussions, and valuable resources. Join us on this journey towards a healthier, happier you.</p>
+        <p class='text-sm mt-5'>Welcome to Planet Crypto! Dive into a universe of cryptocurrency insights, expert articles, community discussions, and valuable resources. Join us on this journey towards financial freedom and explore the exciting world of digital currencies.</p>
+
 
             </div>
             

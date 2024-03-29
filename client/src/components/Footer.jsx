@@ -2,7 +2,7 @@ import React from 'react'
 import { Footer } from 'flowbite-react';
 import { Link } from 'react-router-dom';
 import {BsFacebook, BsTwitter, BsInstagram, BsWhatsapp, BsTiktok} from 'react-icons/bs';
-import logo from "../../public/2hr.png";
+import logo from "/2hr.png";
 
 export default function FooterCom() {
   return (
@@ -20,7 +20,7 @@ export default function FooterCom() {
     <Footer.Title title='About us' />
     <Footer.LinkGroup col>
       <Footer.Link href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' target='_blank' rel='noopener noreferrer'>
-        Learn more about HealthRepublicMedia
+        Learn more about Planetcrypto
       </Footer.Link>
       <Footer.Link href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' target='_blank' rel='noopener noreferrer'>
         Explore how to create a website like this
@@ -72,7 +72,7 @@ export default function FooterCom() {
             </div>
             <Footer.Divider />
             <div className="w-full sm:flex sm:items-center sm:justify-between"> 
-                <Footer.Copyright href='#' by='Healthrepublicmedia' year={new Date().getFullYear()} />
+                <Footer.Copyright href='#' by='Planetcrypto' year={new Date().getFullYear()} />
             </div>
             <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
                 <Footer.Icon href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' icon={BsFacebook} target='_blank'/>

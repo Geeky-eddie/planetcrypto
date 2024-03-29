@@ -54,7 +54,8 @@ const Signin = () => {
             {/* <span className='px-2 py-1  bg-amber-500 rounded-lg text-white'>Career</span> */}
             <img src={logo} alt="logo" height={40} width={80} />
         </Link>
-        <p class='text-sm mt-5'>Welcome to Health Republic Media! Sign in to explore a world of health and wellness insights, expert articles, community discussions, and valuable resources. Join us on this journey towards a healthier, happier you.</p>
+        <p class='text-sm mt-5'>Welcome to Planet Crypto! Join us to embark on an exciting journey into the world of cryptocurrencies. Gain access to valuable insights, expert articles, community discussions, and tutorials to navigate the crypto space and pave your way to financial freedom. Let's explore the possibilities together and unlock the potential of blockchain technology. Start your crypto journey today!</p>
+
 
             </div>
             

@@ -43,8 +43,8 @@ export default function Home() {
         <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50">
           <div className="bg-white p-8 rounded-lg shadow-md text-gray-600">
             <h2 className="text-2xl font-bold mb-4">Join Our WhatsApp Community</h2>
-            <p className="text-lg mb-4">Join HealthRepublicMedia's WhatsApp community for exclusive updates on health and wellness tips, expert insights, and the latest trends in nutrition, fitness, mental health, and more.
-</p>
+            <p className="text-lg mb-4">Join Planet Crypto's WhatsApp community for exclusive updates on cryptocurrency insights, valuable airdrops, step-by-step tutorials, and the latest trends in the crypto world. Don't miss out on the chance to pave your way to 💰$Millions💸🤑!</p>
+
             <div className="flex justify-between">
               <button className="bg-green-500 text-white px-4 py-2 rounded-md mr-2 hover:bg-green-600" onClick={handleJoin}>Join Now</button>
               <button className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600" onClick={handleClose}>Already Joined</button>
@@ -59,10 +59,11 @@ export default function Home() {
       <Adsfooter />
       <Nativead />
         
-      <h1 class='text-4xl font-bold lg:text-6xl'>Welcome to Health Republic Media</h1>
-<p class="mt-4 text-gray-600 text-sm sm:text-base">
-Explore a healthier lifestyle, discover wellness tips, and connect with a community dedicated to well-being. Health Republic Media is your go-to source for health and wellness information, empowering you to live your best life.
+      <h1 class='text-4xl font-bold lg:text-6xl'>Welcome to <span className='text-amber-500'>Planet</span> Crypto</h1>
+      <p class="mt-4 text-gray-600 text-sm sm:text-base">
+Join Planet Crypto and embark on an exciting journey to financial freedom! Dive into the world of cryptocurrencies, explore a multitude of investment opportunities, and connect with a vibrant community of fellow crypto enthusiasts. Whether you're a beginner or an experienced trader, Planet Crypto provides valuable insights, exclusive airdrops, and step-by-step tutorials to help you navigate the ever-evolving crypto landscape. Start your crypto adventure today and pave your way to financial prosperity with Planet Crypto!
 </p>
+
 
         <Link
           to='/search'

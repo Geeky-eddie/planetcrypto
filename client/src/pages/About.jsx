@@ -11,24 +11,25 @@ export default function About() {
       <Nativead />
         <div>
   <h1 className='text-3xl font-semibold text-center my-7'>
-    Welcome to HealthRepublicMedia
+    Welcome to PlanetCrypto
   </h1>
   <div className='text-md text-gray-500 flex flex-col gap-6'>
   <p>
-  Welcome to Health Republic Media, your ultimate destination for embracing a healthier lifestyle and well-being. We're committed to providing you with valuable insights, tips, and resources to help you thrive physically, mentally, and emotionally.
+  Welcome to Planet Crypto, your premier platform for embarking on a journey to financial freedom through the world of cryptocurrencies. We're dedicated to equipping you with the knowledge, tools, and resources necessary to navigate the exciting realm of digital assets and blockchain technology.
 </p>
 
 <p>
-  Founded with a mission to inspire and empower individuals in their journey towards optimal health, Health Republic Media is curated by a team of passionate health enthusiasts and experts. We aim to deliver comprehensive information, guidance, and support to assist you in making informed choices and achieving your wellness goals.
+  Founded with a vision to revolutionize the way people engage with finance and technology, Planet Crypto brings together a team of seasoned experts and enthusiasts passionate about cryptocurrencies. Our mission is to empower individuals like you to seize opportunities, make informed investment decisions, and unlock the potential of decentralized finance.
 </p>
 
 <p>
-  Whether you're exploring nutrition, fitness, mental health, or holistic wellness practices, Health Republic Media offers a diverse array of resources tailored to your needs. From expert articles and guides to community discussions and event updates, we're here to accompany you on your path to well-being.
+  Whether you're a seasoned trader, a curious beginner, or simply intrigued by the possibilities of cryptocurrency, Planet Crypto offers a wealth of resources tailored to your journey. From in-depth insights and market analysis to practical tutorials and real-world case studies, we're here to guide you every step of the way.
 </p>
 
 <p>
-  At Health Republic Media, we believe in fostering a supportive community where individuals can connect, learn, and grow together. Join our WhatsApp community to engage with like-minded individuals, share experiences, and stay updated on the latest trends and developments in the health and wellness world.
+  Join the Planet Crypto community today and embark on your path to financial prosperity. Connect with fellow enthusiasts, share valuable insights, and stay ahead of the curve with the latest trends and developments in the crypto space. Together, let's explore the endless possibilities of the digital economy and chart a course towards financial independence.
 </p>
+
 
   </div>
   <a
