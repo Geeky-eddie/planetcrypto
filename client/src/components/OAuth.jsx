@@ -5,6 +5,7 @@ import { app } from '../firebase';
 import { useDispatch } from 'react-redux';
 import { signInSuccess } from '../redux/user/userSlice';
 import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2'; // Import SweetAlert2
 
 export default function OAuth() {
     const auth = getAuth(app)
@@ -27,7 +28,13 @@ export default function OAuth() {
             const data = await res.json()
             if (res.ok){
                 dispatch(signInSuccess(data))
-                window.alert("WELCOME CRYPTONIAN");
+                // Use SweetAlert2 instead of window.alert
+                Swal.fire({
+                    title: 'WELCOME CRYPTONIAN',
+                    icon: 'success',
+                    showConfirmButton: false,
+                    timer: 3000, 
+                });
                 navigate('/')
             }
         } catch (error) {

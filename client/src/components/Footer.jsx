@@ -22,7 +22,7 @@ export default function FooterCom() {
       <Footer.Link href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' target='_blank' rel='noopener noreferrer'>
         Learn more about Planetcrypto
       </Footer.Link>
-      <Footer.Link href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' target='_blank' rel='noopener noreferrer'>
+      <Footer.Link href='https://www.w3schools.com/' target='_blank' rel='noopener noreferrer'>
         Explore how to create a website like this
       </Footer.Link>
     </Footer.LinkGroup>
@@ -75,11 +75,11 @@ export default function FooterCom() {
                 <Footer.Copyright href='#' by='Planetcrypto' year={new Date().getFullYear()} />
             </div>
             <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-                <Footer.Icon href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' icon={BsFacebook} target='_blank'/>
+                <Footer.Icon href='https://facebook.com' icon={BsFacebook} target='_blank'/>
                 <Footer.Icon href='https://twitter.com/Geekyeddie' icon={BsTwitter} target='_blank'/>
                 <Footer.Icon href='https://www.instagram.com/geekyeddietech/' icon={BsInstagram} target='_blank'/>
-                <Footer.Icon href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' icon={BsWhatsapp} target='_blank'/>
-                <Footer.Icon href='https://traversefaultlessashamed.com/tvsqgu7h?key=77210600284472feec81b21a019d83dd' icon={BsTiktok} target='_blank'/>
+                <Footer.Icon href='https://chat.whatsapp.com/B6dzarAw0zC1LS3hNS0qxQ' icon={BsWhatsapp} target='_blank'/>
+                <Footer.Icon href='https://www.tiktok.com/@geekyeddietech?lang=en' icon={BsTiktok} target='_blank'/>
             </div>
         </div>
     </Footer>
