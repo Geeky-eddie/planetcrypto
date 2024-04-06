@@ -106,9 +106,9 @@ export default function Search() {
     <div className='flex flex-col md:flex-row'>
         
       <div className='p-7 border-b md:border-r md:min-h-screen border-gray-500'>
+      {/* <Adsfooter />
       <Adsfooter />
-      <Adsfooter />
-      <Nativead />
+      <Nativead /> */}
         <form className='flex flex-col gap-8' onSubmit={handleSubmit}>
           <div className='flex   items-center gap-2'>
             <label className='whitespace-nowrap font-semibold'>
@@ -137,10 +137,9 @@ export default function Search() {
               id='category'
             >
               <option value='uncategorized'>Uncategorized</option>
-              {/* <option value='visa-sponsorships'>Visa-sponsorships</option>
-            <option value='remotejobs'>Remotejobs</option>
-            <option value='Scholarships'>Scholarships</option>
-            <option value='job-listings'>Job-listings</option> */}
+              <option value='cryptonews'>Crypto News</option>
+            <option value='signals'>Signals</option>
+            <option value='Airdrops'>Airdrops</option>
             </Select>
           </div>
           <Button type='submit' outline color="warning">
@@ -148,7 +147,7 @@ export default function Search() {
           </Button>
         </form>
       </div>
-      <Adsfooter />
+      {/* <Adsfooter /> */}
       <div className='w-full'>
         <h1 className='text-3xl font-semibold sm:border-b border-gray-500 p-3 mt-5 '>
           Posts results:
@@ -171,8 +170,8 @@ export default function Search() {
           )}
         </div>
       </div>
-      <Adsfooter />
-      <Adsfooter />
+      {/* <Adsfooter />
+      <Adsfooter /> */}
     </div>
   );
 }

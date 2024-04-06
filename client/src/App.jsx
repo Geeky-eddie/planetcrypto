@@ -32,9 +32,9 @@ const App = () => {
     <ScrollToTop />
     <Header />
     
-    <Adsheader />
+    {/* <Adsheader />
     <Adsheader2 />
-    <Adsfooter />
+    <Adsfooter /> */}
     
       <Routes> 
           <Route path="/" element={< Home/>} />
@@ -61,8 +61,8 @@ const App = () => {
           <Route path="/disclaimer" element={< Disclaimer/>} />
           <Route path="/call-to-action" element={< Calltoaction/>} />
       </Routes> 
-      <Adsfooter2 />
-      <Native2 />
+      {/* <Adsfooter2 />
+      <Native2 /> */}
      
       <Footer />
      

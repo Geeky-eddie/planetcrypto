@@ -87,8 +87,8 @@ export default function CreatePost() {
   return (
     
     <div className='p-3 max-w-3xl mx-auto min-h-screen  '>
-      <Adsfooter />
-      <Social1 />
+      {/* <Adsfooter />
+      <Social1 /> */}
       <h1 className='text-center text-3xl my-7 font-semibold'>Create a post</h1>
       <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
         <div className='flex flex-col gap-4 sm:flex-row justify-between'>
@@ -108,10 +108,9 @@ export default function CreatePost() {
             }
           >
             <option value='uncategorized'>Select a category</option>
-            {/* <option value='visa-sponsorships'>Visa-sponsorships</option>
-            <option value='remotejobs'>Remotejobs</option>
-            <option value='Scholarships'>Scholarships</option>
-            <option value='job-listings'>Job-listings</option> */}
+            <option value='cryptonews'>Crypto News</option>
+            <option value='signals'>Signals</option>
+            <option value='Airdrops'>Airdrops</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-amber-500 border-dotted p-3'>
@@ -166,7 +165,7 @@ export default function CreatePost() {
           </Alert>
         )}
       </form>
-      <Adsfooter />
+      {/* <Adsfooter /> */}
     </div>
   );
 }

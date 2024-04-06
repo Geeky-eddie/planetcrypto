@@ -7,8 +7,8 @@ export default function About() {
     <div className='min-h-screen flex items-center justify-center'>
       <div className='max-w-2xl mx-auto p-3 text-center'>
         
-      <Adsfooter />
-      <Nativead />
+      {/* <Adsfooter />
+      <Nativead /> */}
         <div>
   <h1 className='text-3xl font-semibold text-center my-7'>
     Welcome to PlanetCrypto
@@ -33,7 +33,7 @@ export default function About() {
 
   </div>
   <a
-    href='https://chat.whatsapp.com/CI8csy2cFCp5NDx0bnJumM'
+    href='https://chat.whatsapp.com/B6dzarAw0zC1LS3hNS0qxQ'
     target='_blank'
     rel='noopener noreferrer'
     className='inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded my-7'
@@ -42,7 +42,7 @@ export default function About() {
   </a>
 </div>
 
-        <Adsfooter />
+        {/* <Adsfooter /> */}
       </div>
       
     </div>

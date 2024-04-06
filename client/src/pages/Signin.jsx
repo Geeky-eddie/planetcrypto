@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { signInStart, signInSuccess, signInFailure } from '../redux/user/userSlice'
 import OAuth from '../components/OAuth'
-import logo from "../../public/2hr.png";
+import logo from "/2hr.png";
 
 
 const Signin = () => {
@@ -36,6 +36,7 @@ const Signin = () => {
         
             if(res.ok) {
                 dispatch(signInSuccess(data));
+                window.alert("WELCOME CRYPTONIAN");
                 navigate('/');
             }
         }catch (error) {

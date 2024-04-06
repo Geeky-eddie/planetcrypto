@@ -30,7 +30,7 @@ export default function FooterCom() {
   <div>
     <Footer.Title title='Contact us' />
     <Footer.LinkGroup col>
-      <Footer.Link href='https://chat.whatsapp.com/CI8csy2cFCp5NDx0bnJumM' target='_blank' rel='noopener noreferrer'>
+      <Footer.Link href='https://chat.whatsapp.com/B6dzarAw0zC1LS3hNS0qxQ' target='_blank' rel='noopener noreferrer'>
         Join our WhatsApp Community
       </Footer.Link>
       <Footer.Link href='https://twitter.com/Geekyeddie' target='_blank' rel='noopener noreferrer'>

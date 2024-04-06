@@ -13,7 +13,7 @@ export default function CallToAction() {
 
             </p>
             <Button color="warning" className='rounded-tl-xl rounded-bl-none'>
-                <a href="https://chat.whatsapp.com/CI8csy2cFCp5NDx0bnJumM " target='_blank' rel='noopener noreferrer'>
+                <a href="https://chat.whatsapp.com/B6dzarAw0zC1LS3hNS0qxQ" target='_blank' rel='noopener noreferrer'>
                     Join Now
                 </a>
             </Button>

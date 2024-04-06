@@ -111,10 +111,10 @@ export default function Category() {
         
 
         <div className='p-7 border-b md:border-r md:min-h-screen border-gray-500'>
-        <Adsfooter />
+        {/* <Adsfooter />
       <Adsfooter />
       <Adsfooter />
-      <Nativead />
+      <Nativead /> */}
         <form className='flex flex-col gap-8' onSubmit={handleSubmit}>
           {/* <div className='flex   items-center gap-2'>
             <label className='whitespace-nowrap font-semibold'>
@@ -136,10 +136,10 @@ export default function Category() {
               id='category'
             >
               <option value='uncategorized'>Uncategorized</option>
-              {/* <option value='visa-sponsorships'>Visa-sponsorships</option>
-            <option value='remotejobs'>Remotejobs</option>
-            <option value='Scholarships'>Scholarships</option>
-            <option value='job-listings'>Job-listings</option> */}
+              <option value='cryptonews'>Crypto News</option>
+            <option value='signals'>Signals</option>
+            <option value='Airdrops'>Airdrops</option>
+            {/* <option value='job-listings'>Job-listings</option> */}
             </Select>
           </div>
           <div className='flex items-center gap-2'>
@@ -177,8 +177,8 @@ export default function Category() {
           )}
         </div>
       </div>
-      <Adsfooter />
-      <Adsfooter />
+      {/* <Adsfooter />
+      <Adsfooter /> */}
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Nativead from '../components/Nativead';
 const TermsAndConditions = () => {
   return (
     <div className="terms-and-conditions-container max-w-2xl mx-auto px-4 py-8">
-        <Nativead />
+        {/* <Nativead /> */}
       <h1 className="text-3xl font-bold mb-4">Terms and Conditions</h1>
 
       <p className="mb-4">These terms and conditions ("Terms", "Agreement") are an agreement between planetcrypto.com.ng ("us", "we", or "our") and you ("User", "you", or "your"). This Agreement sets forth the general terms and conditions of your use of the planetcrypto.com.ng website and any of its products or services (collectively, "Website" or "Services").</p>
@@ -27,7 +27,7 @@ const TermsAndConditions = () => {
       <ul className="list-disc list-inside mb-4">
         <li>By email: eddie@geekyeddietech.com</li>
       </ul>
-      <Adsfooter />
+      {/* <Adsfooter /> */}
     </div>
   );
 }
