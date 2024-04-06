@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { signInStart, signInSuccess, signInFailure } from '../redux/user/userSlice'
 import OAuth from '../components/OAuth'
 import logo from "/2hr.png";
+import Swal from 'sweetalert2'; 
 
 
 const Signin = () => {
@@ -36,7 +37,12 @@ const Signin = () => {
         
             if(res.ok) {
                 dispatch(signInSuccess(data));
-                window.alert("WELCOME CRYPTONIAN");
+                Swal.fire({
+                    title: 'WELCOME CRYPTONIAN',
+                    icon: 'success',
+                    showConfirmButton: false,
+                    timer: 3000, 
+                });
                 navigate('/');
             }
         }catch (error) {
