@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import PostCard from '../components/PostCard';
 import Adsfooter from '../components/Adsfooter';
 import Nativead from '../components/Nativead';
+import TradingViewMarketQuotes from '../components/TradingViewMarketQuotes';
+import TradingViewWidget from '../components/TradingViewWidget';
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
@@ -77,7 +79,12 @@ Join Planet Crypto and embark on an exciting journey to financial freedom! Dive 
         <CallToAction />
       </div>
 
+      
+
       <div className='max-w-6xl mx-auto p-3 flex flex-col gap-8 py-7'>
+      {/* <div>
+<TradingViewWidget />
+</div> */}
         {posts && posts.length > 0 && (
           <div className='flex flex-col gap-6'>
             <h2 className='text-2xl font-semibold text-center'>Recent Posts</h2>

@@ -24,12 +24,14 @@ import Adsfooter from "./components/Adsfooter";
 import Calltoaction from "./pages/Calltoaction";
 import Native2 from "./components/Native2";
 import Adsfooter2 from "./components/Adsfooter2";
+import TradingViewTickerTape from "./components/TradingViewTickerTape";
 
 
 const App = () => {
   return (
     <BrowserRouter>
     <ScrollToTop />
+    <TradingViewTickerTape />
     <Header />
     
     {/* <Adsheader />
