@@ -189,7 +189,7 @@ export default function UpdatePost() {
           </Alert>
         )}
       </form>
-      {/* <Adsfooter /> */}
+      <Adsfooter />
     </div>
   );
 }

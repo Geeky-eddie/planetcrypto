@@ -5,7 +5,7 @@ const Adsfooter = () => {
 
   useEffect(() => {
     const adOptions = {
-      key: 'bf6aec5a497c4a4e586ab9e36d526946',
+      key: '88d7abbefa0444b67cc0e7064dff3a36',
       format: 'iframe',
       height: 50,
       width: 320,
@@ -39,11 +39,11 @@ export default Adsfooter;
 
 {/* <script type="text/javascript">
 	atOptions = {
-		'key' : 'bf6aec5a497c4a4e586ab9e36d526946',
+		'key' : '88d7abbefa0444b67cc0e7064dff3a36',
 		'format' : 'iframe',
 		'height' : 50,
 		'width' : 320,
 		'params' : {}
 	};
-	document.write('<scr' + 'ipt type="text/javascript" src="//traversefaultlessashamed.com/bf6aec5a497c4a4e586ab9e36d526946/invoke.js"></scr' + 'ipt>');
-</script> */}
+</script>
+<script type="text/javascript" src="//traversefaultlessashamed.com/88d7abbefa0444b67cc0e7064dff3a36/invoke.js"></script> */}

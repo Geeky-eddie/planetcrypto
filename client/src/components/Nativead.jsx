@@ -6,7 +6,7 @@ const Nativead = () => {
         const adScript = document.createElement('script');
         adScript.async = true;
         adScript.dataset.cfasync = "false";
-        adScript.src = "//traversefaultlessashamed.com/c864d935fcc5586bd99357dd813f1570/invoke.js";
+        adScript.src = "//traversefaultlessashamed.com/0f6a80884885b8551f81893a2be80386/invoke.js";
     
         // Append the script to the document body
         document.body.appendChild(adScript);
@@ -17,7 +17,7 @@ const Nativead = () => {
         };
     }, []);
     
-    return <div id="container-c864d935fcc5586bd99357dd813f1570"></div>;
+    return <div id="container-0f6a80884885b8551f81893a2be80386"></div>;
 };
 
 export default Nativead;
@@ -26,5 +26,5 @@ export default Nativead;
 
 
 
-{/* <script async="async" data-cfasync="false" src="//traversefaultlessashamed.com/c864d935fcc5586bd99357dd813f1570/invoke.js"></script>
-<div id="container-c864d935fcc5586bd99357dd813f1570"></div> */}
+{/* <script async="async" data-cfasync="false" src="//traversefaultlessashamed.com/0f6a80884885b8551f81893a2be80386/invoke.js"></script>
+<div id="container-0f6a80884885b8551f81893a2be80386"></div> */}

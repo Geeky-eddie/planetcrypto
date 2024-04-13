@@ -57,9 +57,9 @@ export default function Home() {
 
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto text-center '>
         
-      {/* <Adsfooter />
       <Adsfooter />
-      <Nativead /> */}
+      <Adsfooter />
+      <Nativead />
         
       <h1 class='text-4xl font-bold lg:text-6xl'>Welcome to <span className='text-amber-500'>Planet</span> Crypto</h1>
       <p class="mt-4 text-gray-600 text-sm sm:text-base">
@@ -102,8 +102,8 @@ Join Planet Crypto and embark on an exciting journey to financial freedom! Dive 
           </div>
         )}
       </div>
-      {/* <Nativead />
-      <Adsfooter /> */}
+      <Nativead />
+      <Adsfooter />
     </div>
   );
 }

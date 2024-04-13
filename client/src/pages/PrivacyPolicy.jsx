@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
   return (
     
     <div className="privacy-policy-container max-w-2xl mx-auto px-4 py-8">
-        {/* <Nativead /> */}
+        <Nativead />
       <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p className="mb-4">Last updated: 24th-March-2024</p>
 
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
       <ul className="list-disc list-inside mb-4">
         <li>By email: eddie@geekyeddietech.com</li>
       </ul>
-      {/* <Adsfooter /> */}
+      <Adsfooter />
     </div>
   );
 }

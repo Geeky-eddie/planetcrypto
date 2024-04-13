@@ -111,10 +111,10 @@ export default function Category() {
         
 
         <div className='p-7 border-b md:border-r md:min-h-screen border-gray-500'>
-        {/* <Adsfooter />
+        <Adsfooter />
       <Adsfooter />
       <Adsfooter />
-      <Nativead /> */}
+      <Nativead />
         <form className='flex flex-col gap-8' onSubmit={handleSubmit}>
           {/* <div className='flex   items-center gap-2'>
             <label className='whitespace-nowrap font-semibold'>
@@ -177,8 +177,8 @@ export default function Category() {
           )}
         </div>
       </div>
-      {/* <Adsfooter />
-      <Adsfooter /> */}
+      <Adsfooter />
+      <Adsfooter />
     </div>
   );
 }
